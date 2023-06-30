@@ -7,7 +7,7 @@ int Prompt(string message)
 {
     System.Console.Write(message);
     string readInput = System.Console.ReadLine();
-    int result = int.Parse(readInput);
+    int result = int.Parse(readInput)                       ;
     return result;
 }
 
